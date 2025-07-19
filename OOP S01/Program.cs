@@ -38,17 +38,33 @@
             //Console.WriteLine(p01.ToString());  
             #endregion
 
-            //OOP: object oriented programming
-            //programming paradigm
-            //OOP: paradigm use for build any business
-
-            //class: Blueprint of the object
-            //object: specific instanse from class
-            //4 pillars
+            #region Setter&Getter
             //Encapsulation
-            //Inheritance
-            //Polymorphism
-            //Abstrcation
+            //class or struct
+            //separte the data definition from its use
+
+
+            //End user access data itself
+            //no data validtion
+            //no read only filed
+            //applay Encapsulation 
+            // make data(attribuates) private
+            //  Employee e01=new Employee(1,"Ahmed Walid",-12000);
+            //e01.id = 1;
+            //e01.name = "Ahmed";
+            //e01.salary = 12000;
+            //Console.WriteLine(e01.id);
+            //Console.WriteLine(e01.name);
+            //Console.WriteLine(e01.salary);
+
+            //e01.setId(1);
+            //e01.setName("Ahmed");
+            //e01.setSalary(-12000);
+            //Console.WriteLine(e01.getId());
+            // Console.WriteLine(e01.getName());
+            // Console.WriteLine(e01.getSalary());
+            //  Console.WriteLine(e01); 
+            #endregion
 
         }
     }
