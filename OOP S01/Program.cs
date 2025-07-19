@@ -78,8 +78,20 @@
             // Console.WriteLine(e01.Address); 
             #endregion
 
+            //Indexer: special property
+            PhoneBook pb= new PhoneBook(3);
+            pb.addPerson("Ahmed", 111, 0);
+            pb.addPerson("Ali", 222, 1);
+            pb.addPerson("mohamed", 333, 2);
 
+           //  Console.WriteLine(pb.getNumbers("Ahmed"));
+            //  Console.WriteLine(pb.getNumbers("omar"));
 
+            //  pb.updateNumber("Ahmed", 999);
+            // Console.WriteLine(pb.getNumbers("Ahmed"));
+          //  pb["Ahmed"] = 1111;
+
+          //  Console.WriteLine(pb.getNumbers("Ahmed"));
 
         }
     }
