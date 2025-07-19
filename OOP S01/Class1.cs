@@ -19,6 +19,7 @@ namespace OOP_S01
         //  {
 
         // }
+       
        public Point(int a, int b)
         {
             x = a;

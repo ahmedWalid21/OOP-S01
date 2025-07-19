@@ -80,18 +80,33 @@
 
             //Indexer: special property
             PhoneBook pb= new PhoneBook(3);
-            pb.addPerson("Ahmed", 111, 0);
-            pb.addPerson("Ali", 222, 1);
-            pb.addPerson("mohamed", 333, 2);
+            // pb.addPerson("Ahmed", 111, 0);
+            // pb.addPerson("Ali", 222, 1);
+            // pb.addPerson("mohamed", 333, 2);
 
-           //  Console.WriteLine(pb.getNumbers("Ahmed"));
+            //  Console.WriteLine(pb.getNumbers("Ahmed"));
             //  Console.WriteLine(pb.getNumbers("omar"));
 
             //  pb.updateNumber("Ahmed", 999);
             // Console.WriteLine(pb.getNumbers("Ahmed"));
-          //  pb["Ahmed"] = 1111;
+            //  pb["Ahmed"] = 1111;
 
-          //  Console.WriteLine(pb.getNumbers("Ahmed"));
+            //  Console.WriteLine(pb.getNumbers("Ahmed"));
+
+            //class: reference type : HEAP
+
+            Car c01;
+            //c01:declare for reference(pointer) from type car
+            //c01:refer to null
+
+            c01= new Car(1,200,"ax");
+           /// Console.WriteLine(c01.Id);
+           // Console.WriteLine(c01.Model);
+           // Console.WriteLine(c01.Speed);
+
+
+
+
 
         }
     }
