@@ -9,7 +9,8 @@
         static void Main(string[] args)
         {
 
-           // Point p01;
+            #region Struct
+            // Point p01;
             //declare for object from type Point
             //object
             //allocate uninitilized 8 Byte at stack
@@ -27,14 +28,27 @@
 
 
             //.Net 8.0  C# 12.0
-           // p01 = new Point(1,2);
+            // p01 = new Point(1,2);
             //new:used for select the constructor
 
             // Console.WriteLine(p01.x);
             //Console.WriteLine(p01.y);
             //  Console.WriteLine(p01);
             // p01.printPoint();
-            //Console.WriteLine(p01.ToString()); 
+            //Console.WriteLine(p01.ToString());  
+            #endregion
+
+            //OOP: object oriented programming
+            //programming paradigm
+            //OOP: paradigm use for build any business
+
+            //class: Blueprint of the object
+            //object: specific instanse from class
+            //4 pillars
+            //Encapsulation
+            //Inheritance
+            //Polymorphism
+            //Abstrcation
 
         }
     }
