@@ -12,6 +12,59 @@ namespace OOP_S01
         private string name;
         private double salary;
 
+        //properties
+        //apply Encapsulation user properties
+        //1.full property{recommended}
+        //Id
+        public int Id
+        {
+            //set
+            //get
+            set
+            {
+                id = value;
+            }
+            get
+            {
+                return id;
+            }
+        }
+        public string Name
+        {
+            set
+            {
+                if(value.Length>8 && value.Length<20)
+                name = value;
+            }
+            get
+            {
+                return name;
+            }
+        }
+        public double Salary
+        {
+            set
+            {
+                if(value>0)
+                salary = value;
+            }
+            get
+            {
+                return salary;
+            }
+        }
+
+
+
+        //2.automatic property
+
+       public string Address { set; get; }
+
+
+        //3.special property(indexer)
+
+
+
         public void setId(int id)
         {
             this.id = id;
