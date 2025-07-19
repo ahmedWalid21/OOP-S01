@@ -6,38 +6,46 @@ using System.Threading.Tasks;
 
 namespace OOP_S01
 {
-    internal struct Point
+    internal struct Person
     {
-        private double x;
-        private double y;
+        private string name;
+        private int  age;
+        
+        public string Name
+        {
+            set
+            {
+                name = value;
+            }
+            get
+            {
+                return name;
+            }
+        }
 
-        public double X
+        public int Age
         {
             set
             {
-                this.x = value;
+                age = value;
             }
             get
             {
-                return x;
+                return age;
             }
         }
-        public double Y
+        public Person(string name, int age)
         {
-            set
-            {
-                this.y = value;
-            }
-            get
-            {
-                return y;
-            }
+            Age = age;
+            Name = name;
         }
-        public Point(double x, double y)
-        {
-            X = x;
-            Y = y;
-        }
+
+
+
+
+
+
+
 
 
 
